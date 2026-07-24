@@ -168,3 +168,4 @@ export const GameHUD: React.FC<GameHUDProps> = ({
     </div>
   );
 };
+npm install -D @types/react @types/react-dom
