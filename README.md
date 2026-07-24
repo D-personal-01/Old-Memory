@@ -1,20 +1,14 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Tux Typing is an educational, browser-based typing game inspired by the classic open-source TuxType arcade game.
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/9fcbf000-9ce3-431d-9c0c-15afa7fc4c15
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
+Key Highlights
+   Arcade Gameplay: Type falling words to feed Tux or laser-zap incoming obstacles before they reach the ground.
+   Typing Analytics: Tracks real-time typing speed (WPM), accuracy percentage, hit streaks, and score counters.
+   Configurable Difficulty & Vocabulary: Choose between Easy, Medium, and Hard speeds alongside themed word banks      (Animals, Technology, Space, Fruits & Colors, Programming).
+   Interactive Canvas & Synthesized Audio: Built on HTML5 Canvas with dynamic snow and wave effects, custom penguin animations, and Web Audio API synthesized sound effects.
+   Tech Stack: React 18, TypeScript, Tailwind CSS, HTML5 Canvas, Lucide Icons, and Web Audio API.
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your AI API key
 3. Run the app:
    `npm run dev`
