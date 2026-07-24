@@ -35,6 +35,8 @@ export const TuxCanvas: React.FC<TuxCanvasProps> = ({
     score,
     lives,
     level,
+    startTime: 0,
+    maxLives: lives,
     items: [] as FallingItem[],
     particles: [] as Particle[],
     activeItemId: null as string | null,
