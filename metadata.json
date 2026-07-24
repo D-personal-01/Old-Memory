@@ -1,0 +1,6 @@
+{
+  "name": "Tux Typing",
+  "description": "An interactive, educational browser-based remake of the classic Tux Typing game featuring dynamic falling words/letters, real-time typing analysis, interactive animations, and custom audio effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
